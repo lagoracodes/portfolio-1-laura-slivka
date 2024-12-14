@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left"><h3 class="f-fd">LagoraCodes</h3></div>
+      <div class="nav-center">
+        <ul class="navbar f-fd-row f-ai-center">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right"></div>
+    </nav>
+    <section id="home" class="hero-container">
+      <div class="hero-bg">
+        <video class="video-bg" autoplay muted loop>
+          <source src="/attributes/videos/video.mp4" type="video/mp4" />
+          Your browser does not support the video.
+        </video>
+      </div>
+      <div class="hero-content">
+        <h3>Hi, my name is</h3>
+        <h1 class="hero-title">Laura.</h1>
+        <h2 class="hero-description">
+          I'm a front-end development student in Noroff.
+        </h2>
+        <h4>Welcome to my portfolio!</h4>
+        <p>Scroll down to learn more</p>
+        <button class="hero-button" onclick="alert('Button clicked!')">
+          contact me
+        </button>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        My name is Laura Šlivka, and I'm a front-end development student at
+        Noroff. I currently live in the beautiful city of Tromsø, located in
+        northern Norway. <br />
+        Outside of work and studies, I enjoy reading books, playing video games,
+        cooking, baking, and watching movies. <br />
+        Feel free to explore my portfolio below!
+      </p>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>My Portfolio</h2>
+      <div class="projects">
+        <div class="project">Project 1</div>
+        <div class="project">Project 2</div>
+        <div class="project">Project 3</div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>
+        Feel free to contact me by my email: <br />
+        lagoracodes@gmail.com
+      </p>
+    </section>
+    <div>
+      <h4>LagoraCodes</h4>
+      <footer>LagoraCodes © 2024 All rights reserved.</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
