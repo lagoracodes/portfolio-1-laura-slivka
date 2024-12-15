@@ -8,13 +8,13 @@
   </head>
   <body>
     <nav>
-      <div class="nav-left"><h3 class="f-fd">LagoraCodes</h3></div>
+      <div class="nav-left"><h4 class="nav-title">LagoraCodes</h4></div>
       <div class="nav-center">
         <ul class="navbar f-fd-row f-ai-center">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="nav-right"></div>
@@ -26,8 +26,9 @@
           Your browser does not support the video.
         </video>
       </div>
-      <div class="hero-content">
-        <h3>Hi, my name is</h3>
+      <div class="hero-content f-fd-col f-ai-center">
+        <img src="/attributes/images/svg-13.svg" alt="hello image" />
+        <h5>Hi, my name is</h5>
         <h1 class="hero-title">Laura.</h1>
         <h2 class="hero-description">
           I'm a front-end development student in Noroff.
@@ -39,36 +40,66 @@
         </button>
       </div>
     </section>
-    <section id="about" class="about">
-      <h2>About Me</h2>
-      <p>
-        My name is Laura Šlivka, and I'm a front-end development student at
-        Noroff. I currently live in the beautiful city of Tromsø, located in
-        northern Norway. <br />
-        Outside of work and studies, I enjoy reading books, playing video games,
-        cooking, baking, and watching movies. <br />
-        Feel free to explore my portfolio below!
-      </p>
-    </section>
-    <section id="portfolio" class="portfolio">
-      <h2>My Portfolio</h2>
-      <div class="projects">
-        <div class="project">Project 1</div>
-        <div class="project">Project 2</div>
-        <div class="project">Project 3</div>
+    <section id="about">
+      <div class="f-fd-row f-ai-center left-positioning">
+        <img src="/attributes/images/svg-9.svg" alt="about me image" />
+        <div class="f-fd-col">
+          <h2>About Me</h2>
+          <p>
+            My name is Laura Šlivka, and I'm a front-end development student at
+            Noroff. I currently live in the beautiful city of Tromsø, located in
+            northern Norway. <br />
+            Outside of work and studies, I enjoy reading books, playing video
+            games, cooking, baking, and watching movies. <br />
+            Feel free to explore my portfolio below!
+          </p>
+        </div>
       </div>
     </section>
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <p>
-        Feel free to contact me by my email: <br />
-        lagoracodes@gmail.com
-      </p>
+    <section id="portfolio" class="f-fd-col">
+      <div class="f-fd-row f-ai-center f-jc-center">
+        <img src="/attributes/images/svg-1.svg" alt="my portfolio image" />
+        <div class="f-fd-col">
+          <h2>My Portfolio</h2>
+          <div id="projects" class="f-fd-row">
+            <div class="project">
+              <p>GameHub</p>
+              <div class="project-buttons f-fd-col">
+                <button>preview</button><button>github</button>
+              </div>
+            </div>
+            <div class="project">
+              <p>Community Science Museum</p>
+              <div class="project-buttons f-fd-col">
+                <button>preview</button><button>github</button>
+              </div>
+            </div>
+            <div class="project">
+              <p>Cozy Cat Bakery</p>
+              <div class="f-fd-col">
+                <button>preview</button><button>github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <div>
-      <h4>LagoraCodes</h4>
-      <footer>LagoraCodes © 2024 All rights reserved.</footer>
-    </div>
+    <section id="contact">
+      <div class="f-fd-row f-ai-center left-positioning">
+        <img src="/attributes/images/svg-6.svg" alt="contact me image" />
+        <div class="f-fd-col">
+          <h2>Contact</h2>
+          <p>
+            Feel free to contact me by my email: <br />
+            lagoracodes@gmail.com
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="f-fd-col f-ai-center">
+      <h5>LagoraCodes</h5>
+      <p>LagoraCodes © 2024 All rights reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
